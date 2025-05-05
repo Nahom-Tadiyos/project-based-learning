@@ -16,6 +16,8 @@ def preprocces_data(df):
 
     df["Embarked"].fillna("S", inplace = True)
     df.drop(columns=["Embarked"], inplace = True)
+    
+    fill_missing_ages(df)
 
     #Convert Gender
     df["Sex"] = df["Sex"].map({'male':1, "female":0})
@@ -27,3 +29,13 @@ def preprocces_data(df):
     df["AgeBin"] = pd.cut(df["Age"], bins=[0,12,20,40,60, np.inf], labels = False)
 
     return df
+
+def fill_missing_ages(df):
+    age_fill_map = {}
+    for pclass in df["Pclass"].unique():
+        if pclass not in age_fill_map:
+            age_fill_map[pclass] = df[df["Pclass"] == pclass]["Age"].median()
+    
+    df["Age"] = df.apply(lambda row: age_fill_map[row["Pclass"]] if pd.isnull(row['Age']) else row["Age"],
+                         axis = 1)
+    
