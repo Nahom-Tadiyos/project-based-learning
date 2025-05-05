@@ -57,3 +57,30 @@ scaler = MinMaxScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 
+#Hyperparemater Tuning - KNN model
+def tune_model(X_train, y_train):
+    param_grid = {
+        "n_neighbor":range(1,21),
+        "metrics":["euclidean", "manhattan", "minkowski"],
+        "wighets":["uniforms", "distance"]
+    }
+
+    model = KNeighborsClassifier()
+    grid_search = GridSearchCV(model, param_grid, cv=5, n_jobs=-1)
+    grid_search.fit(X_train, y_train)#Train the data 
+    return grid_search.best_estimator_
+
+best_model = tune_model(X_train, y_train)
+
+#Predictions and Evaluate
+def evaluate_model(model, X_test, y_test):
+    prediction = model.predict(X_test)
+    accuracy = accuracy_score(y_test, prediction)
+    matrix = confusion_matrix(y_test, prediction)
+    return accuracy, matrix
+
+accuracy, matrix = evaluate_model(best_model, X_test, y_test)
+
+print(f'Accuracy: {accuracy_score*100:.2f}%')
+print(f"Confusion Matrix")
+print(matrix)
