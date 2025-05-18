@@ -1,0 +1,33 @@
+id,minute,result,X,Y,xG,player,h_a,player_id,situation,season,shotType,match_id,h_team,a_team,h_goals,a_goals,date,player_assisted,lastAction
+610316,12,BlockedShot,0.8430000305175781,0.3579999923706055,0.04887167364358902,Trent Alexander-Arnold,h,1791,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,None
+610317,12,MissedShots,0.8530000305175781,0.5379999923706055,0.10008318722248077,Luis Díaz,h,10408,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Trent Alexander-Arnold,Pass
+610318,13,MissedShots,0.9269999694824219,0.580999984741211,0.4388771057128906,Cody Gakpo,h,11296,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Ryan Gravenberch,Throughball
+610319,15,SavedShot,0.92,0.3970000076293945,0.3040310740470886,Alexis Mac Allister,h,8379,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Mohamed Salah,Chipped
+610323,28,MissedShots,0.7230000305175781,0.43400001525878906,0.013794475235044956,Ryan Gravenberch,h,10697,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Virgil van Dijk,TakeOn
+610324,37,MissedShots,0.899000015258789,0.3609999847412109,0.09273608773946762,Alexis Mac Allister,h,8379,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Mohamed Salah,Pass
+610328,42,MissedShots,0.875999984741211,0.33,0.108414426445961,Mohamed Salah,h,1250,OpenPlay,2024,LeftFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Luis Díaz,Chipped
+610329,45,BlockedShot,0.8480000305175781,0.5520000076293945,0.10150483250617981,Ryan Gravenberch,h,10697,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,TakeOn
+610332,58,Goal,0.9430000305175781,0.68,0.054929472506046295,Cody Gakpo,h,11296,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Alexis Mac Allister,Pass
+610333,65,MissedShots,0.7280000305175781,0.51,0.02106921374797821,Alexis Mac Allister,h,8379,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Ryan Gravenberch,Pass
+610334,66,BlockedShot,0.875999984741211,0.45,0.031482405960559845,Alexis Mac Allister,h,8379,OpenPlay,2024,Head,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,None
+610335,69,Goal,0.885,0.5,0.7611688375473022,Mohamed Salah,h,1250,Penalty,2024,LeftFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,Standard
+610336,74,MissedShots,0.7859999847412109,0.4329999923706055,0.09648293256759644,Mohamed Salah,h,1250,DirectFreekick,2024,LeftFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,Standard
+610340,89,SavedShot,0.8530000305175781,0.5279999923706055,0.11215411126613617,Diogo Jota,h,6854,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,None
+610341,89,SavedShot,0.970999984741211,0.29700000762939455,0.06696677207946777,Conor Bradley,h,10120,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,TakeOn
+610342,90,SavedShot,0.9440000152587891,0.509000015258789,0.37439677119255066,Virgil van Dijk,h,833,FromCorner,2024,Head,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Alexis Mac Allister,HeadPass
+610344,93,BlockedShot,0.9230000305175782,0.2989999961853027,0.04831521213054657,Mohamed Salah,h,1250,OpenPlay,2024,LeftFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Harvey Elliott,Chipped
+610345,93,MissedShots,0.9209999847412109,0.39299999237060546,0.030297329649329185,Virgil van Dijk,h,833,FromCorner,2024,Head,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Andrew Robertson,Cross
+610346,94,BlockedShot,0.805,0.500999984741211,0.05642801150679588,Diogo Jota,h,6854,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Andrew Robertson,Pass
+610320,19,BlockedShot,0.86,0.31,0.04596451297402382,Noussair Mazraoui,a,10696,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Bruno Fernandes,Pass
+610321,19,BlockedShot,0.845,0.514000015258789,0.06383038312196732,Kobbie Mainoo,a,11174,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,Rebound
+610322,24,BlockedShot,0.9640000152587891,0.5629999923706055,0.05679081007838249,Matthijs de Ligt,a,7902,FromCorner,2024,Head,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Bruno Fernandes,BallTouch
+610325,41,SavedShot,0.9130000305175782,0.69,0.28333500027656555,Rasmus Højlund,a,11055,OpenPlay,2024,LeftFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Lisandro Martínez,Chipped
+610326,41,BlockedShot,0.8690000152587891,0.6769999694824219,0.04002617672085762,Bruno Fernandes,a,1228,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,Rebound
+610327,42,BlockedShot,0.7130000305175781,0.7090000152587891,0.009847553446888924,Diogo Dalot,a,7281,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Harry Maguire,HeadPass
+610330,48,BlockedShot,0.9209999847412109,0.6969999694824218,0.02040155604481697,Diogo Dalot,a,7281,OpenPlay,2024,LeftFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,Aerial
+610331,51,Goal,0.9390000152587891,0.6819999694824219,0.11607535928487778,Lisandro Martínez,a,10802,OpenPlay,2024,LeftFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Bruno Fernandes,Throughball
+610337,79,Goal,0.909000015258789,0.5220000076293946,0.4707243740558624,Amad Diallo Traore,a,8127,OpenPlay,2024,LeftFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,None
+610338,88,SavedShot,0.925,0.835999984741211,0.03185160830616951,Bruno Fernandes,a,1228,FromCorner,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Alejandro Garnacho,Pass
+610339,88,BlockedShot,0.89,0.29200000762939454,0.03204844892024994,Amad Diallo Traore,a,8127,FromCorner,2024,LeftFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Bruno Fernandes,Cross
+610343,90,BlockedShot,0.9319999694824219,0.7080000305175781,0.04645421355962753,Alejandro Garnacho,a,10552,OpenPlay,2024,LeftFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,,None
+610347,96,MissedShots,0.9080000305175782,0.485,0.471610963344574,Harry Maguire,a,1687,OpenPlay,2024,RightFoot,26797,Liverpool,Manchester United,2,2,2025-01-05 16:30:00,Joshua Zirkzee,Pass
