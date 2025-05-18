@@ -17,4 +17,13 @@ from sklearn.svm import SVC
 url = "datasets/iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = read_csv(url, names=names)
-print(dataset.head())
+
+# shape the data set
+print(dataset.shape)
+#(150,5) 150 instances and 5 attributes
+
+# descriptions/ Statistical Summary
+print(dataset.describe())
+
+# class distribution
+print(dataset.groupby('class').size())
